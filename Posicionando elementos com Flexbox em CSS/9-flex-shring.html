@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - shring</title>
+    <Style>
+        .flex-container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 350px;
+        }
+
+        .items{
+            background-color: orangered;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .s-1{
+            flex-shrink: 1;
+        }
+
+        .fg-1{
+            flex-grow: 1;
+        }
+    </Style>
+</head>
+<body>
+    <P>flex-shrink 1</P>
+<div class="flex-container">
+   <div class="items">A</div>
+   <div class="items">B</div>
+   <div class="items">C</div>
+   <div class="items">D</div>
+   <div class="items">E</div>
+</div>
+</body>
+</html>
