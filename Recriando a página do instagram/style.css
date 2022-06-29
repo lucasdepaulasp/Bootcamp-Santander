@@ -25,14 +25,14 @@ body {
     height: 100vh;
 }
 
-.instagram-phone {
+.instagram-celular {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
 
-.instagram-phone img {
+.instagram-celular img {
     height: 50rem;
 }
 
@@ -120,11 +120,11 @@ body {
 }
 
 .app-download:nth-child(1) {
-    background-image: url('./img/apple-button.png');
+    background-image: url('./img/button-apple.png');
 }
 
 .app-download:nth-child(2) {
-    background-image: url('./img/googleplay-button.png');
+    background-image: url('./img/button-googleplay.png');
 }
 
 /* media queries */
